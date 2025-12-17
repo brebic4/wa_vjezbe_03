@@ -22,7 +22,7 @@ npm -v
 1. Klonirajte repozitorij:
 
 ```bash
-git clone <URL_REPOZITORIJA>
+git clone <https://github.com/brebic4/wa_vjezbe_03.git>
 ```
 
 2. Uđite u backend direktorij (pizza-express):
@@ -31,7 +31,7 @@ git clone <URL_REPOZITORIJA>
 cd pizza-express
 ```
 
-3. Instalirajte potrebne pakete:
+3. Instalirajte potrebni paket:
 
 ```bash
 npm install
@@ -40,14 +40,10 @@ npm install
 4. Pokrenite Express poslužitelj:
 
 ```bash
-npm run dev
-```
-
-ili
-
-```bash
 node index.js
 ```
+
+Ostavite Express poslužitelj pokrenut, te otvorite novi terminal
 
 ---
 
@@ -59,7 +55,7 @@ node index.js
 cd pizza-vue
 ```
 
-2. Instalirajte ovisnosti:
+2. Instalirajte potrebni paket:
 
 ```bash
 npm install
@@ -87,7 +83,7 @@ Frontend aplikacija koristi **Axios** za komunikaciju s backendom te šalje HTTP
 http://localhost:3000
 ```
 
-Prije pokretanja frontenda obavezno pokrenuti backend poslužitelj.
+Prije pokretanja frontenda OBAVEZNO pokrenuti backend poslužitelj.
 
 ---
 
@@ -108,5 +104,3 @@ Ako aplikacija ne dohvaća podatke:
 - provjerite CORS postavke na backendu
 
 ---
-
-Autor: _Bruno Rebić_
